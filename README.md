@@ -76,7 +76,7 @@ Para mais informações, você pode entrar em contato com os autores do projeto 
 
 lucas.martins54@fatec.sp.gov.br <br>
 pedro.aguiar@fatec.sp.gov.br <br>
-pedro.silva317@fatec.sp.gov.br <br><br>
+pedro.silva317@fatec.sp.gov.br <br>
 
 ### GitHub
 [Lucas](https://github.com/EOLucas-Martins) <br>
