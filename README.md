@@ -48,25 +48,6 @@ Este repositório contém um sistema CRUD (Create, Read, Update, Delete) para ge
 - **GET /usuarios-view/editar/{id}**: Exibe o formulário para editar um usuário.
 - **GET /usuarios-view/deletar/{id}**: Deleta um usuário e redireciona para a lista de usuários.
 
-## Estrutura do Projeto
-
-O projeto é organizado nas seguintes pastas principais:
-
-src/main/java/com/exemplo/cadastro_usuarios 
-├── controller/ # Contém as classes responsáveis pelo controle das requisições HTTP. 
-│ ├── UsuarioController.java # Controlador REST para operações CRUD. 
-  │ ├── UsuarioViewController.java # Controlador para operações de visualização e interação com a interface de usuário. 
-    ├── model/ # Contém a classe Usuario, que representa a entidade no banco de dados. 
-      │ ├── Usuario.java ├── repository/ # Contém a interface UsuarioRepository para interações com o banco de dados. 
-        │ ├── UsuarioRepository.java 
-          ├── service/ # Contém a classe UsuarioService que implementa a lógica de negócios. 
-            │ ├── UsuarioService.java ├── CadastroUsuariosApplication.java # Classe principal que inicia a aplicação Spring Boot.
-
-## Testes
-src/test/java/com/exemplo/cadastro_usuarios 
-├── CadastroUsuariosApplicationTests.java # Classe de teste para verificar se a aplicação carrega corretamente.
-
-
 ## Como Executar
 
 ### Pré-requisitos
