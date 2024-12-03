@@ -72,13 +72,13 @@ Este projeto está licenciado sob a MIT License.
 ### Contato
 Para mais informações, você pode entrar em contato com os autores do projeto através dos e-mails:
 
-## Email
+### Email
 
 lucas.martins54@fatec.sp.gov.br <br>
 pedro.aguiar@fatec.sp.gov.br <br>
 pedro.silva317@fatec.sp.gov.br <br><br>
 
-## GitHub
+### GitHub
 [Lucas](https://github.com/EOLucas-Martins) <br>
 [Pedro Aguiar](https://github.com/PedroSaguiar) <br>
 [Pedro Silva](https://github.com/PedroSilva55)
