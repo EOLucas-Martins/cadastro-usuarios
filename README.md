@@ -52,3 +52,47 @@ Este repositório contém um sistema CRUD (Create, Read, Update, Delete) para ge
 
 O projeto é organizado nas seguintes pastas principais:
 
+src/main/java/com/exemplo/cadastro_usuarios 
+├── controller/ # Contém as classes responsáveis pelo controle das requisições HTTP. 
+│ ├── UsuarioController.java # Controlador REST para operações CRUD. 
+  │ ├── UsuarioViewController.java # Controlador para operações de visualização e interação com a interface de usuário. 
+    ├── model/ # Contém a classe Usuario, que representa a entidade no banco de dados. 
+      │ ├── Usuario.java ├── repository/ # Contém a interface UsuarioRepository para interações com o banco de dados. 
+        │ ├── UsuarioRepository.java 
+          ├── service/ # Contém a classe UsuarioService que implementa a lógica de negócios. 
+            │ ├── UsuarioService.java ├── CadastroUsuariosApplication.java # Classe principal que inicia a aplicação Spring Boot.
+
+## Testes
+src/test/java/com/exemplo/cadastro_usuarios 
+├── CadastroUsuariosApplicationTests.java # Classe de teste para verificar se a aplicação carrega corretamente.
+
+
+## Como Executar
+
+### Pré-requisitos
+
+- **Java JDK 17**
+- **H2 Database** (Não é necessário instalar, pois está configurado para usar em memória)
+- **Maven**
+- **IDE como IntelliJ IDEA, Eclipse ou VS Code**
+
+### Instruções de Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/EOLucas-Martins/cadastro-usuarios.git
+   cd cadastro-usuarios
+2. Compile e execute a aplicação
+3. Acesse a aplicação no navegador em: http://localhost:8080/usuarios.
+
+### Licença
+Este projeto está licenciado sob a MIT License.
+
+###Contato
+Para mais informações, você pode entrar em contato com os autores do projeto através dos e-mails:
+
+lucas.martins54@fatec.sp.gov.br
+pedro.aguiar@fatec.sp.gov.br
+pedro.silva317@fatec.sp.gov.br
+
+
