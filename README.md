@@ -69,7 +69,7 @@ Este repositório contém um sistema CRUD (Create, Read, Update, Delete) para ge
 ### Licença
 Este projeto está licenciado sob a MIT License.
 
-###Contato
+### Contato
 Para mais informações, você pode entrar em contato com os autores do projeto através dos e-mails:
 
 lucas.martins54@fatec.sp.gov.br
